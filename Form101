@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial=width"
+    <title>Form101</title>
+</head>
+<body>
+    <h1 align="center">Kim Mingyu member of a kpop group and a rapper and singer in south korea</h1>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="required surename"> <label>Age:</label>
+        <input type="text" id="age" name="age"><br>
+        <label for="address">Address:></label><br>
+        <input type="text" id="address" name="address"> <br>
+
+        <label>Sex:</label><br>
+        <input type="radio" id="male" name="sex" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="sex" name="female">
+        <label for="female">Female</label><br>
+
+        <label for="e-malladd">E-mailadd:</label>
+        <input type="e-mailadd" id="e-mailad" name="e-mailadd">
+<br>
+        <label for="hobbies">Hobbies:</label>
+        <input type="checkbox"> <label for="music">Music</label>
+        <input type="checkbox"> <label for="cooking">Cooking</label>
+        <input type="checkbox"> <label for="hiking">Hiking</label>
+        <input type="checkbox"> <label for="reading wattpad">Reading Wattpad</label>
+    <br>
+        <label for="cellphone number">Cellphone Number</label>
+        <input type="text" id="cellphone number" name="cellphone number">
+    <br>
+    <input type="submit">      
+    </form>
+
+</body>
+</html>
